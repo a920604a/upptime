@@ -3,11 +3,9 @@ owner: a920604a # Your GitHub organization or username, where this repository li
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
   - name: Engineer News
     url: https://engineer-news.pages.dev/
-  - name: Hacker News
+  - name: My Resume
     url: https://a920604a.github.io/self-reusme-website/
   - name: Assets
     url: https://asset-scope-frontend.pages.dev/
@@ -15,11 +13,6 @@ sites:
     url: https://a920604a-labs.pages.dev/
   - name: Nutrition
     url: https://nutrition-risk-engine.pages.dev/
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
