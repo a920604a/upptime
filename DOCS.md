@@ -75,7 +75,6 @@
 | Assets | https://asset-scope-frontend.pages.dev/ | HTTP |
 | My Labs | https://a920604a-labs.pages.dev/ | HTTP |
 | Nutrition | https://nutrition-risk-engine.pages.dev/ | HTTP |
-| IPv6 test | forwardemail.net:80 | TCP Ping (IPv6) |
 
 ---
 
