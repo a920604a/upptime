@@ -27,7 +27,7 @@ status-website:
       href: /upptime
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-  theme: dark
+  theme: ocean # See https://upptime.js.org/docs/configuration#theme for more themes
   customCss: >
     :root {
       --body-background-color: #0d1117;
