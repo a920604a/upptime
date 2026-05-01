@@ -56,6 +56,7 @@ jobs:
         with:
           workflow: Graphs CI
           token: ${{ secrets.GH_PAT || github.token }}
+        continue-on-error: true
       - name: Generate site
         uses: upptime/uptime-monitor@v1.41.0
         with:
