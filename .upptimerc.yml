@@ -18,15 +18,34 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://avatars.githubusercontent.com/u/a920604a
+  name: a920604a Status
+  introTitle: "All Systems Status"
+  introMessage: Real-time uptime monitoring for all my projects. Powered by GitHub Actions.
   navbar:
     - title: Status
       href: /upptime
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  theme: dark
+  customCss: >
+    :root {
+      --body-background-color: #0d1117;
+      --card-background-color: #161b22;
+      --nav-background-color: #161b22;
+      --nav-border-bottom-color: #30363d;
+      --body-text-color: #e6edf3;
+      --text-muted: #8b949e;
+      --link-color: #58a6ff;
+      --success-color: #3fb950;
+      --danger-color: #f85149;
+      --warning-color: #d29922;
+    }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .navbar { box-shadow: 0 1px 0 rgba(48,54,61,0.8); }
+    .card { border-radius: 12px; border: 1px solid #30363d; transition: transform 0.2s; }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+    h1, h2 { letter-spacing: -0.5px; }
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
